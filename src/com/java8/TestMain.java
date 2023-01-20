@@ -37,6 +37,7 @@ public class TestMain {
                 .collect(Collectors.groupingBy(Student::getName, Collectors.groupingBy(Student::getPercentage)));
         //.forEach(System.out::println);
         System.out.println(map);
+        System.out.println("testing git");
 
     }
 }
